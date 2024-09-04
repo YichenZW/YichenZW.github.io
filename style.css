@@ -25,14 +25,15 @@ html {
 }
 
 
-font-family: 'Roboto Slab', serif;
+/* font-family: 'Roboto Slab', serif; */
 @font-face {
 	font-family: 'Roboto Slab';
+	src: url('fonts\Roboto_Slab\RobotoSlab-VariableFont_wght.ttf') format('ttf');
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'Roboto Slab';
-}
+} */
 
 h1 {
 	font-family: 'Roboto Slab';
