@@ -24,12 +24,106 @@ html {
 	height: 100%;
 }
 
+/* roboto-slab-100 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-100.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-200 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-200.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-300 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-300.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-regular - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-500 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-500.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-600 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-600.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-700 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-700.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-800 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-800.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-slab-900 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/roboto-slab-v34/roboto-slab-v34-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-900.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 /* font-family: 'Roboto Slab', serif; */
-@font-face {
-	font-family: 'Roboto Slab';
-	src: url('fonts\Roboto_Slab\RobotoSlab-VariableFont_wght.ttf') format('ttf');
-}
 
 /* @font-face {
 	font-family: 'Roboto Slab';
@@ -37,23 +131,23 @@ html {
 
 h1 {
 	font-family: 'Roboto Slab';
-	font-size:2em;
-	text-transform:uppercase;
+	font-size: 2em;
+	text-transform: uppercase;
 	font-weight: 700;
 }
 
 h3 {
 	font-family: 'Roboto Slab';
-	font-size:1.4em;
-	text-transform:uppercase;
+	font-size: 1.4em;
+	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 3px
 }
 
 h2 {
 	font-family: 'Roboto Slab';
-	font-size:0.95em;
-	text-transform:uppercase;
+	font-size: 0.95em;
+	text-transform: uppercase;
 	font-weight: 700;
 	display: inline;
 }
@@ -71,8 +165,8 @@ body {
 img {
 	vertical-align: middle;
 	border: 0 none;
-    border-radius: 3%;
-    margin-left: 20px;
+	border-radius: 3%;
+	margin-left: 20px;
 }
 
 a {
@@ -83,8 +177,8 @@ a {
 }
 
 a:hover {
-	position:relative;
-	top:-2px;
+	position: relative;
+	top: -2px;
 }
 
 p {
@@ -123,85 +217,93 @@ ul.intro {
 }
 
 .news {
-	border:3px solid rgb(235, 235, 235);
-	max-height:200px;
-	min-width:500px;
-    font-size: small;
+	border: 3px solid rgb(235, 235, 235);
+	max-height: 200px;
+	min-width: 500px;
+	font-size: small;
 	/*min-height:20em;*/
-	overflow:auto;
+	overflow: auto;
 	list-style-position: outside;
 	padding-left: 2em;
 }
 
 
-ul.pubs > li{
+ul.pubs>li {
 	margin-bottom: 1.2em;
 }
 
 .aParent div {
-  float: left;
-  clear: both; 
+	float: left;
+	clear: both;
 }
 
 .wrapper {
 	margin-top: 60px;
 	margin-left: 60px;
 	margin-right: 60px;
-    padding-bottom: 2cm;
+	padding-bottom: 2cm;
 
 }
 
 .posts-wrapper {
 	max-width: 1000px;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .question {
-	margin-left: 40px; 
-	padding:5px;
-	border-width:1px;
-	border-color:darkred;
+	margin-left: 40px;
+	padding: 5px;
+	border-width: 1px;
+	border-color: darkred;
 	border-style: solid solid solid solid;
- 	height: 192px; width: 800px; overflow: auto;
- 	font-size:0.8em;
+	height: 192px;
+	width: 800px;
+	overflow: auto;
+	font-size: 0.8em;
 }
 
-.post {
-}
+.post {}
 
 
 .hidden {
-    display: none;
+	display: none;
 }
+
 .unhidden {
-    display: table;
-    position:relative;
-/*    width:80%;
-*/}
+	display: table;
+	position: relative;
+	/*    width:80%;
+*/
+}
 
 pre {
 	background-color: #f5f5f5;
 	color: #110000;
 	border: 3;
-	font-size:0.9em;
-	line-height:1.2em;
+	font-size: 0.9em;
+	line-height: 1.2em;
 	max-width: 950px;
 
-	whitewhite-space: pre-wrap;       /* css-3 */  
-	whitewhite-space: -pre-wrap;      /* Opera 4-6 */  
-	whitewhite-space: -o-pre-wrap;    /* Opera 7 */  
-	word-wrap: break-word;       /* Internet Explorer 5+ */  
-	whitewhite-space: -moz-pre-wrap;  /* Older Versions of Mozilla */  
+	whitewhite-space: pre-wrap;
+	/* css-3 */
+	whitewhite-space: -pre-wrap;
+	/* Opera 4-6 */
+	whitewhite-space: -o-pre-wrap;
+	/* Opera 7 */
+	word-wrap: break-word;
+	/* Internet Explorer 5+ */
+	whitewhite-space: -moz-pre-wrap;
+	/* Older Versions of Mozilla */
 }
 
 
 ::-webkit-scrollbar {
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 ::-webkit-scrollbar:vertical {
-    width: 0.75em;
+	width: 0.75em;
 }
 
 /*::-webkit-scrollbar:horizontal {
@@ -209,25 +311,26 @@ pre {
 }*/
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 1em;
-    border: 2px solid #ffffff;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 1em;
+	border: 2px solid #ffffff;
 }
 
 .badge-code {
-    color: #fff;
-    background-color: #28a745;
+	color: #fff;
+	background-color: #28a745;
 }
+
 .badge {
-    display: inline-block;
-    padding: .25em .4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
+	display: inline-block;
+	padding: .25em .4em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25rem;
 }
 
 /* header, nav, main, footer {
