@@ -55,7 +55,7 @@
             <div class="post">
                 <header>
                     <h1>Yichen (Zach) Wang &nbsp <span
-                            style="font-family: '仿宋', 'STFangsong'; font-size: smaller; font-weight: regular;">王奕辰</span>
+                            style="font-family: '仿宋', 'STFangsong'; font-size: 57%; font-weight: regular;">王奕辰</span>
                     </h1>
                 </header>
                 <h2>
@@ -83,9 +83,9 @@
                             University of Chicago</a>, advised by Prof. <a href="https://minalee-research.github.io/"
                             target="_blank">Mina Lee</a> in the <a href="https://ci.cs.uchicago.edu/"
                             target="_blank">UChicago C&I</a> group.
-                        My current research focuses on enpowering <strong>exploration</strong> and
-                        <strong>creativity</strong> of large language models for <strong>open-ended tasks</strong>,
-                        spanning writing, thinking, and collaborating with humans.
+                        My current research focuses on improving generative <strong>diversity</strong> and empowering
+                        <strong>exploration</strong> and <strong>creativity</strong> in large language models for
+                        <strong>open-ended tasks</strong>, including writing, thinking, and human collaboration.
                         <br> <br>
                         I serves as the student organizer of <a href="https://ci.cs.uchicago.edu/seminar/"
                             target="_blank">UChicago/TTIC NLP Seminar</a>.
@@ -119,7 +119,17 @@
             <h3 style="margin-bottom:0.75em;">news</h3>
             <div class="news">
                 <p>
-                    <u>Oct 18,</u>
+                    <u>Nov. 6, 2025</u>: 🔎 I am actively seeking summer 2026 research internships on LLM. I would
+                    appreciate if you know any opportunities!
+                    <br>
+                    <u>Nov. 5, 2025</u>: Our paper on analysing misinformation in reasoning is presenting at EMNLP 2025
+                    this week!
+                    <br>
+                    <u>July 25, 2025</u>: Our research on jailbreaking vision-language models will be on oral
+                    presentation at ACL 2025!
+                    <br>
+                    <u>Oct. 1, 2024</u>: 🌅 Starting the PhD journey at UChicago! Can't wait to learn a loooooot!
+                    <br>
                     <u>May 18, 2024</u>: ACL 2024 accepts three of our papers (2 main 1 findings)! Please feel free to
                     check them out! And we also won a competition at the SDP workshop. See you in Bangkok this summer!
                     <br>
@@ -149,13 +159,165 @@
             <p>
             <main>
                 <ul class="pubs">
+                    <li>
+                        <a href="https://arxiv.org/abs/2511.05650" target="_blank"><strong>Optimizing Diversity and
+                                Quality through Base-Aligned Model Collaboration</strong></a><br>
+                        <u>Yichen Wang<sup>=</sup></u>, Chenghao Yang<sup>=</sup>, Tenghao Huang<sup>=</sup>, Muhao
+                        Chen, Jonathan May, Mina Lee <br>
+                        <i> arxiv:2511</i><br>
+                        Alignment improves large language models (LLMs)' output quality but at the cost of diversity.
+                        We propose that collaboration between base and aligned models can achieve both diversity and
+                        quality.
+                        We introduce BACo (Base-Aligned Model Collaboration), an inference-time framework that employs
+                        token-level routing strategies based on prediction uncertainty and semantic role, achieving
+                        improvements in a single pass without retraining or multi-sampling.
+                        Experiments across three open-ended generation tasks and 13 metrics show BACo consistently
+                        surpasses state-of-the-art baselines, achieving a 21.3% joint improvement in diversity and
+                        quality, confirmed by human evaluations.
+
+                        <br> <a href="javascript:unhide('baco25');">Citation</a> // <a
+                            href="https://yichenzw.com/base-aligned-collab.github.io/" target="_blank">Website</a> //
+                        <a href="https://github.com/YichenZW/base-align-collab" target="_blank">Code</a> //
+                        <a href="https://huggingface.co/datasets/ZachW/base-align-collab" target="_blank">Data</a> //
+                        <br>
+                        <a href="https://github.com/YichenZW/awesome-llm-diversity" target="_blank"><strong>Reading
+                                List: Awesome LLM Diversity</strong></a> -- A curated list of papers and resources on
+                        LLM diversity, to cover literature from various perspectives including linguistic, value
+                        pluralism, exploration in RL, and human-LLM interaction, etc.
+                        <div id="baco25" class="hidden">
+                            <pre>
+@misc{wang2025optimizingdiversityqualitybasealigned,
+      title={Optimizing Diversity and Quality through Base-Aligned Model Collaboration}, 
+      author={Yichen Wang and Chenghao Yang and Tenghao Huang and Muhao Chen and Jonathan May and Mina Lee},
+      year={2025},
+      eprint={2511.05650},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2511.05650}, 
+}</pre>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://arxiv.org/abs/2505.18555" target="_blank">Unraveling
+                            Misinformation Propagation in LLM Reasoning</a><br>
+                        Yiyang Feng<sup>=</sup>, <u>Yichen Wang<sup>=</sup></u>, Shaobo Cui, Boi Faltings, Mina Lee,
+                        Jiawei Zhou <br>
+                        <i> EMNLP 2025 Findings</i><br>
+                        We investigate how misinformation from user inputs, which is prevalent in real-world
+                        interactions, propagates through LLMs' reasoning processes, focusing on math reasoning as a case
+                        study.
+                        We analyze misinformation's impact on intermediate steps and final answers, and examine LLMs'
+                        ability on correction.
+                        Results show LLMs correct misinformation less than half the time despite possessing correct
+                        internal knowledge and explicit instruction, causing accuracy drops of 10.02%-72.20%. We explore
+                        mitigation methods and suggest that fine-tuning on synthetic early-stage, factual correction data can
+                        effectively mitigate misinformation propagation.
+                        <br> <a href="javascript:unhide('misinfo25');">Citation</a> // <a
+                            href="https://misinfo-prop.github.io/" target="_blank">Website</a>
+                        <div id="misinfo25" class="hidden">
+                            <pre>
+@misc{feng2025unravelingmisinformationpropagationllm,
+      title={Unraveling Misinformation Propagation in LLM Reasoning}, 
+      author={Yiyang Feng and Yichen Wang and Shaobo Cui and Boi Faltings and Mina Lee and Jiawei Zhou},
+      year={2025},
+      eprint={2505.18555},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.18555}, 
+}</pre>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a href="https://arxiv.org/abs/2412.00473" target="_blank">Jailbreak Large Vision-Language
+                            Models Through Multi-Modal Linkage </a><br>
+                        Yu Wang, Xiaofei Zhou, <u>Yichen Wang</u>, Geyuan Zhang, Tianxing He<br>
+                        <i>ACL 2025</i> Oral <br>
+                        State-of-the-art VLMs like GPT-4o can be jailbroken at the linkage between multiple modalities.
+                        We propose Multi-Modal Linkage (MML) Attack that uses an
+                        encryption-decryption process across text and image modalities to hide malicious content and
+                        frames within benign scenarios like video game production.
+                        Experiments demonstrate attack success rates of 97.80% on SafeBench,
+                        98.81% on MM-SafeBench, and 99.07% on HADES-Dataset against GPT-4o.
+                        <br> <a href="javascript:unhide('jailbreak25');">Citation</a>
+                        <div id="jailbreak25" class="hidden">
+                            <pre>
+@misc{wang2025jailbreaklargevisionlanguagemodels,
+      title={Jailbreak Large Vision-Language Models Through Multi-Modal Linkage}, 
+      author={Yu Wang and Xiaofei Zhou and Yichen Wang and Geyuan Zhang and Tianxing He},
+      year={2025},
+      eprint={2412.00473},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.00473}, 
+}</pre>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="https://arxiv.org/abs/2503.09639" target="_blank">Can A Society of Generative Agents
+                            Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine
+                            Hesitancy</a><br>
+                        Abe Bohan Hou, Hongru Du, <u>Yichen Wang</u>, Jingyu Zhang, Zixiao Wang, Paul Pu Liang, Daniel
+                        Khashabi, Lauren Gardner, Tianxing He<br>
+                        <i>COLM 2025</i> <br>
+                        We explore how to apply a sandbox society with generative agents to model human behavior for
+                        assessing public policies.
+                        We introduce VacSim, a framework that uses 100 LLM agents to simulate health-related
+                        decision-making, with vaccine hesitancy as a case study.
+                        We instantiate agents with demographics, connect them via a social network, and evaluate public
+                        health interventions.
+                        Experiments indicate that LLMs can simulate aspects of human behavior but face real-world
+                        alignment challenges such as demographic inconsistencies, highlighting both the potential and
+                        limitations of LLM-driven social simulation for policy development.
+
+                        <br> <a href="javascript:unhide('vaccine25');">Citation</a>
+                        <div id="vaccine25" class="hidden">
+                            <pre>
+@misc{hou2025societygenerativeagentssimulate,
+      title={Can A Society of Generative Agents Simulate Human Behavior and Inform Public Health Policy? A Case Study on Vaccine Hesitancy}, 
+      author={Abe Bohan Hou and Hongru Du and Yichen Wang and Jingyu Zhang and Zixiao Wang and Paul Pu Liang and Daniel Khashabi and Lauren Gardner and Tianxing He},
+      year={2025},
+      eprint={2503.09639},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2503.09639}, 
+}</pre>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a href="https://arxiv.org/abs/2506.02959" target="_blank">HACo-Det: A Study Towards
+                            Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring</a><br>
+                        Zhixiong Su<sup>=</sup>, <u>Yichen Wang<sup>=</sup></u>, Herun Wan, Zhaohan Zhang, Minnan
+                        Luo<br>
+                        <i>ACL 2025</i> <br>
+                        We explore the possibility of fine-grained machine-generated text detection under human-AI
+                        coauthoring.
+                        We adapt existing document-level detectors to fine-grained detection and evaluate them on the
+                        word-level HACo-Det dataset we built.
+                        The results show that metric-based methods significantly underperform, and all methods face challenges in detecting coauthored
+                        texts.
+                        <br> <a href="javascript:unhide('haco25');">Citation</a>
+                        <div id="haco25" class="hidden">
+                            <pre>
+@article{su2025haco,
+  title={HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring},
+  author={Su, Zhixiong and Wang, Yichen and Wan, Herun and Zhang, Zhaohan and Luo, Minnan},
+  journal={arXiv preprint arXiv:2506.02959},
+  year={2025}
+}</pre>
+                        </div>
+                    </li>
 
                     <li>
                         <a href="https://arxiv.org/abs/2406.10584" target="_blank">Concentrate Attention: Towards
                             Domain-Generalizable Prompt Optimization for Language Models</a><br>
                         Chengzhengxu Li, Xiaoming Liu, Zhaohan Zhang, <u>Yichen Wang</u>, Chen Liu, Yu Lan, and Chao
                         Shen <br>
-                        <i>🆕 NIPS 2024</i> <br>
+                        <i>NIPS 2024</i> <br>
                         We conduct a pilot study on prompt optimization generalization and find two co-relation rules
                         with LM's attention weight distributions. We then offer a new objective, concentration,
                         representing the strength and stability of lookback attention to the prompt. Adapting it to
@@ -177,7 +339,7 @@
                                 the Robustness of Machine-Generated Text Detectors Under Attacks</b></a><br>
                         <u>Yichen Wang</u>, Shangbin Feng, Abe Bohan Hou, Xiao Pu, Chao Shen, Xiaoming Liu, Yulia
                         Tsvetkov, and Tianxing He <br>
-                        <i>ACL 2024</i> <b><span style="color: rgb(230, 135, 149);">&nbsp 🌟 best paper nomination 🌟
+                        <i>ACL 2024</i> <b><span style="color: rgb(230, 135, 149);">&nbsp 🌟 best paper AC nomination 🌟
                                 meta score = 5/5 </span></b> <br>
                         We comprehensively study the robustness of popular machine-generated text detectors under
                         attacks from diverse categories: editing, paraphrasing, prompting, and co-generating. Our
